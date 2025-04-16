@@ -110,31 +110,31 @@ bun install
 forge build
 ```
  skip warnings!
-```
+
 FOR LIGHTNING ONLY:-
 
 Run Using Docker:
-
+```
 docker run -it --rm \
   -v /teamspace/studios/this_studio:/workspace \
   ubuntu:22.04 \
   bash
-  
+```    
 > Install libssl3 inside Docker & go to Workspace:
-
+```
 apt update && apt install -y libssl3
 cd /workspace/.drosera/bin
-
+```
 > Install ca-certificates:
-
+```
 apt update && apt install -y ca-certificates
 update-ca-certificates
-
+```
 > Then Deploy Trap:
-
+```
 DROSERA_PRIVATE_KEY=*** \
 /workspace/.drosera/bin/drosera apply
-
+```
 
 **Deploy Trap**:
 ```bash

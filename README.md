@@ -109,16 +109,17 @@ bun install
 ```bash
 forge build
 ```
-> skip warnings!
+ skip warnings!
+```
+FOR LIGHTNING ONLY:-
 
- > FOR LIGHTNING ONLY
-
-> Run Using Docker:
+Run Using Docker:
 
 docker run -it --rm \
   -v /teamspace/studios/this_studio:/workspace \
   ubuntu:22.04 \
   bash
+  
 > Install libssl3 inside Docker & go to Workspace:
 
 apt update && apt install -y libssl3

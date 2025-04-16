@@ -51,6 +51,10 @@ sudo docker run hello-world
 curl -L https://app.drosera.io/install | bash
 ```
 ```
+## If Using Ligtning Server Use
+echo 'export PATH="/teamspace/studios/this_studio/.drosera/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+## For Normal VPS Use
 source /root/.bashrc
 ```
 ```

@@ -137,7 +137,7 @@ DROSERA_PRIVATE_KEY=*** \
 /workspace/.drosera/bin/drosera apply
 ```
 
-**Deploy Trap**:
+**Deploy Trap**:- For Normal VPS Use
 ```bash
 DROSERA_PRIVATE_KEY=xxx drosera apply
 ```
@@ -163,7 +163,13 @@ Open your Trap on Dashboard and Click on `Send Bloom Boost` and deposit some `Ho
 ![image](https://github.com/user-attachments/assets/2f5216fd-fdf9-4732-96d0-959b3fbce479)
 
 ## 5. Fetch Blocks
+If Using Ligtning Server Use-
 ```bash
+export PATH=$PATH:/workspace/.drosera/bin
+drosera dryrun
+```
+## For Normal VPS Use
+```
 drosera dryrun
 ```
 

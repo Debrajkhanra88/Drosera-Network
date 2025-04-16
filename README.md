@@ -54,6 +54,7 @@ curl -L https://app.drosera.io/install | bash
 ## If Using Ligtning Server Use
 echo 'export PATH="/teamspace/studios/this_studio/.drosera/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
+
 ## For Normal VPS Use
 source /root/.bashrc
 ```
@@ -66,6 +67,11 @@ droseraup
 curl -L https://foundry.paradigm.xyz | bash
 ```
 ```
+## If Using Ligtning Server Use
+echo 'export PATH="/teamspace/studios/this_studio/.foundry/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+## For Normal VPS Use
 source /root/.bashrc
 ```
 ```

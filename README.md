@@ -125,6 +125,7 @@ docker run -it --rm \
 ```
 apt update && apt install -y libssl3
 cd /workspace/.drosera/bin
+```bash
 ```
 > Install ca-certificates:
 ```

@@ -22,6 +22,8 @@ sudo apt install curl ufw iptables build-essential git wget lz4 jq make gcc nano
 ```
 apt update && apt install -y nano
 apt update && apt install -y curl
+apt update && apt install -y ufw
+
 ```
 Docker:
 ```bash

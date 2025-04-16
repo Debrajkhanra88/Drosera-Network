@@ -120,18 +120,18 @@ docker run -it --rm \
   ubuntu:22.04 \
   bash
 ```    
-> Install libssl3 inside Docker & go to Workspace:-
+Install libssl3 inside Docker & go to Workspace:-
 ```
 apt update && apt install -y libssl3
 cd /workspace/.drosera/bin
 ```bash
 ```
-> Install ca-certificates:
+Install ca-certificates:
 ```
 apt update && apt install -y ca-certificates
 update-ca-certificates
 ```
-> Then Deploy Trap:
+Then Deploy Trap:
 ```
 DROSERA_PRIVATE_KEY=*** \
 /workspace/.drosera/bin/drosera apply

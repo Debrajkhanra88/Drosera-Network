@@ -120,8 +120,7 @@ docker run -it --rm \
   ubuntu:22.04 \
   bash
 ```    
-> Install libssl3 inside Docker & go to Workspace:
-```bash
+> Install libssl3 inside Docker & go to Workspace:-
 ```
 apt update && apt install -y libssl3
 cd /workspace/.drosera/bin
